@@ -141,7 +141,7 @@ class Dealer(Player):
 class Game:
     import logging
     LOG_FORMAT = "%(asctime)s %(levelname)s - %(message)s"
-    logging.basicConfig(filename=blackjack.log",level = logging.DEBUG, format=LOG_FORMAT)
+    logging.basicConfig(filename="blackjack.log",level = logging.DEBUG, format=LOG_FORMAT)
     logger = logging.getLogger("Roy Huang")
 
     def __init__(self,playerList):
